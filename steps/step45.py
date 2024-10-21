@@ -17,6 +17,8 @@ max_iter = 10000
 hidden_size = 10
 
 # Model definition
+
+
 class TwoLayerNet(Model):
     def __init__(self, hidden_size, out_size):
         super().__init__()
